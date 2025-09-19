@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  exov:
+    image: rupesh69/exov:0.6
+    container_name: exov
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
