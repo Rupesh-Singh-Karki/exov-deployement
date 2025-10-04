@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   exov:
-    image: rupesh69/exov:0.6
+    image: rupesh69/exov:0.7
     container_name: exov
     env_file:
       - .env
