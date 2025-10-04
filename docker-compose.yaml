@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   exov:
-    image: rupesh69/exov:0.9
+    image: lakshkrishnasharma/exovdev:v0.1
     container_name: exov
     env_file:
       - .env
